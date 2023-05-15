@@ -1,8 +1,14 @@
 import React from 'react'
+import { Header, Footer } from '../../Static'
+import {Outlet} from "react-router-dom"
 
 const HomeLayout = () => {
   return (
-    <div>HomeLayout</div>
+      <div>
+          <Header />
+          <Outlet />
+          <Footer />
+    </div>
   )
 }
 
