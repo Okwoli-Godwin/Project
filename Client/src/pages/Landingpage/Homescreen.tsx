@@ -1,8 +1,13 @@
 import React from 'react'
+import Hero from './Hero'
 
 const Homescreen = () => {
   return (
-    <div>Homescreen</div>
+      <div style={{
+          overflow: "hidden"
+      }}>
+          <Hero />
+    </div>
   )
 }
 
